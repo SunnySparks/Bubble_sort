@@ -17,7 +17,7 @@ def bubble_sort_by(array)
     (0...(array.length - 1)).each do |i|
       left = array[i]
       right = array[i + 1]
-      if yield(left, right).positive
+      if yield(left, right).positive?
         deleted = array.delete(left)
         array.insert(i + 1, deleted)
       end
