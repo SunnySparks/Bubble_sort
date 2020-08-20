@@ -7,10 +7,8 @@ def bubble_sort(array)
       end
     end
   end
-  puts array
+  p array
 end
-
-bubble_sort([10, 30, 55, 98, 44, 31])
 
 def bubble_sort_by(array)
   array.length.times do
@@ -23,9 +21,5 @@ def bubble_sort_by(array)
       end
     end
   end
-  puts array
-end
-
-bubble_sort_by(%w[what is up yo]) do |left, right|
-  left.length - right.length
+  p array
 end
