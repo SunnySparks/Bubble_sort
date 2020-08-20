@@ -7,7 +7,7 @@ def bubble_sort(array)
       end
     end
   end
-  p array
+  array
 end
 
 def bubble_sort_by(array)
@@ -21,5 +21,5 @@ def bubble_sort_by(array)
       end
     end
   end
-  p array
+  array
 end
